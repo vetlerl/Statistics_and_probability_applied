@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# But include .ipynb and .py files (and their folders)
+!*.ipynb
+!*.py
+!.gitignore
+
+# Also include common data science config files
+!.env
+!requirements.txt
+!README.md
